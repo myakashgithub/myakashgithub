@@ -9,5 +9,6 @@
 
 
 
-
+kubectl -n default run testdefault --rm -i -t --image=alpine -- /bin/sh
+ kubectl -n default run testdefault --rm -i -t --image=alpine -- sh
 
